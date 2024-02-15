@@ -2,7 +2,7 @@
 An online image storage service for your favorite pictures.
 
 ## Presentation
-Watch it on youtube video: https://youtu.be/nZ14gWYz4_I 
+Watch it on youtube: https://youtu.be/nZ14gWYz4_I 
 
 
 ## How to run locally
