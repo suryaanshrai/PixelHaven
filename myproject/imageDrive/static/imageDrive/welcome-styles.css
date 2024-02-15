@@ -1,0 +1,51 @@
+body {
+  background: url("/static/imageDrive/images/bg.jpg") no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 50cm 50cm;
+}
+
+.welcome {
+  text-align: center;
+  font: 48px Raleway, sans-serif;
+  margin: .5cm;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+}
+
+.description {
+  text-align: center;
+  font: 28px Raleway, sans-serif;
+  margin: 1cm;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons a{
+  display: inline-block;
+  margin: .5cm;
+}
+
+.buttons button {
+  border: none;
+  background-color: #fd680e;
+  border-radius: .5cm;
+  color: white;
+  font: 20px "Raleway", sans-serif; 
+  padding: 10px;
+  padding-left: .5cm;
+  padding-right: .5cm;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  background-color: #fd684f;
+  transition: background-color .5s;
+}
+
+.buttons button:focus {
+  outline: none;
+}

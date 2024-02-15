@@ -1,0 +1,131 @@
+  body {
+    padding-bottom: 3cm;
+  }
+  #topbar {
+    background: rgba(0, 0, 0, 0.75  );
+    padding: 1cm;
+    text-align: left;
+    color:white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  #topbar img {
+    width:20px;
+  }
+
+  .button {
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    padding: 10px;  
+  }
+
+  .button:hover {
+    background-color: #222222;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  #fileupload {
+    width: 6cm;
+  }
+
+  #fileupload input::file-selector-button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+  }
+  #fileupload input::file-selector-button:hover{
+    cursor: pointer;
+  }
+  #fileupload *:hover {
+    cursor: pointer;
+  }
+
+  #myVideo {
+    opacity: .2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  #logoName {
+    /* text-align: right;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    z-index: 2; */
+    margin: 0;
+    padding: 0;
+    font-size: 2cm;
+    text-align: right;
+  }
+
+  .imageObject {
+    width: 10cm;
+    height: 10cm;
+    margin: 1cm;
+    margin-bottom: 3px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  .gallery {
+    text-align: center;
+  }
+
+  .imageObject img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  #logoNameTop {
+    display: none;
+    font-size: xx-large;
+  }
+
+  @media (max-width:950px) {
+    #logoName {
+      font-size: 1.5cm;
+    }
+  }
+
+
+  @media (max-width:750px) {
+    #topbar {
+      padding-left:.5cm;
+      grid-template-columns: 100%;
+      flex-direction: row-reverse;
+    }
+
+    .imageObject {
+      width: 90%;
+      margin: 10px;
+    }
+
+
+    #logoName {
+      display: none;
+    }
+    #logoNameTop {
+      display: block;
+    }
+  }
+
+  .imageFrame {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 2cm;
+  }
+
+  .deleteButton {
+    display: inline-block;
+  }
